@@ -16,6 +16,10 @@ grey-teal #53a697
     background-color: #53a697;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color:#ffc812;
 }
@@ -53,6 +57,23 @@ h1,h2,h3,h4 {
     display: inline-block;
     font-family: PT Sans Narrow;
     font-size: 18px;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*------------------Heading */
