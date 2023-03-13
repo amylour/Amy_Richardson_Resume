@@ -9,9 +9,29 @@ bright yellow #ffc812
 orange yellow #fab23d
  */
 
+/*------------------Background */
 .bg-color-name-title {
     background-color: #262626;
 }
+
+.ui-menu-color-home {
+    background-color:#ffc812;
+}
+
+.ui-menu-color-resume {
+    background-color: #fab23d;
+}
+
+.ui-menu-color-contact {
+    background-color: #383838;
+}
+
+
+.ui-menu-color-download {
+    background-color: #262626;
+}
+
+/*------------------Heading */
 
 header {
     margin: 0;
@@ -35,7 +55,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #fff;
+    color: #fab23d;
 }
 
 .title {
