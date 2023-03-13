@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
 
 /* ------------------Colours */
 /* 
@@ -7,11 +8,12 @@ dark grey #262626
 lighter grey #383838
 bright yellow #ffc812
 orange yellow #fab23d
+grey-teal #53a697
  */
 
 /*------------------Background */
 .bg-color-name-title {
-    background-color: #262626;
+    background-color: #53a697;
 }
 
 .ui-menu-color-home {
@@ -29,6 +31,22 @@ orange yellow #fab23d
 
 .ui-menu-color-download {
     background-color: #262626;
+}
+
+/*------------------Special paddings/margins/text */
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fab23d;
 }
 
 /*------------------Heading */
@@ -50,16 +68,16 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-size: 46px;
     margin-top: 50px;
     color: #fab23d;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
@@ -110,7 +128,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
@@ -119,4 +137,13 @@ header {
 .hvr-bounce-to-right:before {
     background-color: rgba(0,0,0,0.3);
     height: 120px;
+}
+
+/*------------------Footer */
+
+footer {
+    background-color: #383838;
+    color: #fab23d;
+    min-height: 120px;
+    margin: 0;
 }
