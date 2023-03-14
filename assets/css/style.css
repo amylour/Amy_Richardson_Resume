@@ -221,3 +221,21 @@ footer p {
 #footer-details {
     padding: 20px;
 }
+
+/*------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 28px;
+    color: #fab23d;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.three-reasons-p {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
