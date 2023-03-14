@@ -28,6 +28,10 @@ grey-teal #53a697
     background-color: #fab23d;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color:#ffc812;
 }
@@ -262,7 +266,7 @@ footer p {
     padding-right: 8px;
     display: inline-block;
     font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .personal-info-item .key p,
@@ -285,6 +289,7 @@ footer p {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+    font-family: "Poppins", sans-serif;
 }
 
 /*------------------Skills */
@@ -364,4 +369,44 @@ footer p {
 
 .history-items {
     margin-bottom: 30px;
+}
+/*------------------Contact form */
+
+.contact-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.small-poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #53a697;
+    border: 0;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 18px;
+}
+
+/*------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
 }
