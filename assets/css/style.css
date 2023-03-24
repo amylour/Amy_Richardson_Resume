@@ -40,10 +40,17 @@ grey-teal #53a697
     background-color: #fab23d;
 }
 
+.ui-menu-color-interests {
+    background-color: #fab23d ;
+}
+
+.ui-menu-color-github {
+    background-color: #407c72;
+}
+
 .ui-menu-color-contact {
     background-color: #383838;
 }
-
 
 .ui-menu-color-download {
     background-color: #262626;
