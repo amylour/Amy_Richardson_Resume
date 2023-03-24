@@ -41,11 +41,11 @@ grey-teal #53a697
 }
 
 .ui-menu-color-interests {
-    background-color: #fab23d ;
+    background-color: #008373 ;
 }
 
 .ui-menu-color-github {
-    background-color: #407c72;
+    background-color:#026572;
 }
 
 .ui-menu-color-contact {
@@ -54,6 +54,12 @@ grey-teal #53a697
 
 .ui-menu-color-download {
     background-color: #262626;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    color:#000;
 }
 
 /*------------------Special paddings/margins/text */
